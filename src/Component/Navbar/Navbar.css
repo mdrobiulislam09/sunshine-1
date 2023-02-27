@@ -1,0 +1,25 @@
+.vanilnav{
+    color: #3814d8;
+    font-size: 20px;
+    font-weight: 700;
+}
+.vanilacolor{
+    color: #66b81a;
+    
+}
+.navborder{
+    border-bottom: #3814d8 solid 2px;
+}
+.sadu{
+    color: rgb(36, 165, 235);
+    text-shadow: -2px 2px 2px #5c48b6;
+}
+.bgcl{
+    background-color: rgb(108, 128, 111);;
+}
+.navbarstable{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
