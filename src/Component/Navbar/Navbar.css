@@ -1,5 +1,5 @@
 .vanilnav{
-    color: #3814d8;
+    color: #f9fafb;
     font-size: 20px;
     font-weight: 700;
 }
@@ -11,11 +11,10 @@
     border-bottom: #3814d8 solid 2px;
 }
 .sadu{
-    color: rgb(36, 165, 235);
-    text-shadow: -2px 2px 2px #5c48b6;
+    color: white;
 }
 .bgcl{
-    background-color: rgb(108, 128, 111);;
+    background-color:#267580;
 }
 .navbarstable{
     overflow: hidden;
