@@ -19,7 +19,7 @@ const AddService = () => {
             price,
         }
 
-        fetch('http://localhost:5000/photo-service', {
+        fetch('https://sunshine-1-server.vercel.app/photo-service', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',

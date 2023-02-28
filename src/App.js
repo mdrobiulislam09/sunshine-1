@@ -39,7 +39,7 @@ function App() {
             {
                 path: '/photo-service/:id',
                 element: <CardDetails></CardDetails>,
-                loader: ({params}) => fetch(`http://localhost:5000/photo-service/${params.id}`)
+                loader: ({params}) => fetch(`https://sunshine-1-server.vercel.app/photo-service/${params.id}`)
             },
             {
                 path: '/mycomments',

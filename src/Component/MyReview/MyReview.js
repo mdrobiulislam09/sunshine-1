@@ -8,7 +8,7 @@ const MyReview = () => {
     const [comments, setComments] = useState([])
 
     useEffect(() => {
-        fetch(`http://localhost:5000/comments?email=${user?.email}`)
+        fetch(`https://sunshine-1-server.vercel.app/comments?email=${user?.email}`)
             .then(res => res.json())
             .then(data => setComments(data))
     }, [user?.email])
@@ -17,7 +17,7 @@ const MyReview = () => {
     const handleDelete = (id) =>{
         const proceed = window.confirm('Are you sure delete comment')
         if(proceed){
-            fetch(`http://localhost:5000/comments/${id}`,{
+            fetch(`https://sunshine-1-server.vercel.app/comments/${id}`,{
                 method: 'DELETE'
             })
             .then(res => res.json())

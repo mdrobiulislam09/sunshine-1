@@ -25,7 +25,7 @@ const CardDetails = () => {
         }
         // console.log(reviewing)
 
-        fetch('http://localhost:5000/comments', {
+        fetch('https://sunshine-1-server.vercel.app/comments', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',
