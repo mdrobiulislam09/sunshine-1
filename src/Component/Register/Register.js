@@ -23,7 +23,7 @@ const Register = () => {
 
     
     return (
-        <div className="hero py-10">
+        <div className="hero py-10 pding">
             <div className="hero-content grid md:grid-cols-2 lg:grid-cols-1 flex-col lg:flex-row">
                 <div className="text-center lg:text-left">
                 </div>

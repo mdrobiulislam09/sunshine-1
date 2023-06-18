@@ -8,7 +8,7 @@
     
 }
 .navborder{
-    border-bottom: #3814d8 solid 2px;
+    /* border-bottom: #3814d8 solid 2px; */
 }
 .sadu{
     color: white;
@@ -21,4 +21,9 @@
     position: fixed;
     top: 0;
     width: 100%;
+}
+@media only screen and (max-width: 756px){
+    .sadu{
+        color: #267580;
+    }
 }

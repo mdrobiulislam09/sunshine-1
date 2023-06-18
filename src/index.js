@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import 'react-photo-view/dist/react-photo-view.css';
 import { PhotoProvider } from 'react-photo-view';
 import AuthProvider from './Component/AuthProvider/AuthProvider';
+import "yet-another-react-lightbox/styles.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

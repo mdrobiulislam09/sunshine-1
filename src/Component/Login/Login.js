@@ -31,7 +31,7 @@ const Login = () => {
             .catch(error => console.error(error))
     }
     return (
-        <div className="hero py-10">
+        <div className="hero py-10 pding">
             <div className="hero-content grid md:grid-cols-2 lg:grid-cols-1 flex-col lg:flex-row">
                 <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                     <h1 className="text-5xl font-bold p-4">Login now!</h1>

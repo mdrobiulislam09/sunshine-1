@@ -42,7 +42,7 @@ const AddService = () => {
 
 
     return (
-        <div>
+        <div className='pding'>
             <h2>Add a Service</h2>
             <form onSubmit={handeleService}>
                 <div><input type="text" name='servicename' placeholder="Service Name" className="input input-bordered input-accent w-full max-w-xs" required /></div>

@@ -43,7 +43,7 @@ const CardDetails = () => {
     }
 
     return (
-        <div>
+        <div className='pding'>
             {/* card Details */}
             <div className=" w-full bg-base-100 shadow-xl">
                 <figure className='flex justify-center'>

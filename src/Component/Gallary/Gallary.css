@@ -1,0 +1,8 @@
+
+.galaxy img{
+    transition: 1s;
+}
+.galaxy img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
